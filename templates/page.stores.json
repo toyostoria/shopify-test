@@ -2,7 +2,41 @@
   "sections": {
     "main": {
       "type": "stores-page",
+      "blocks": {
+        "9e40fe28-842d-4121-9f48-5826b73cc244": {
+          "type": "store_info",
+          "settings": {
+            "store_image": "shopify:\/\/shop_images\/salon-tokyo-room.jpg",
+            "title": "東京サロン",
+            "store_address": "〒105-0022 東京都港区海岸2-1-23 ベイサイド5階",
+            "store_link": ""
+          }
+        },
+        "44768bb0-810b-438b-90d2-4075b15af6eb": {
+          "type": "store_info",
+          "settings": {
+            "store_image": "shopify:\/\/shop_images\/salon-yokohama-room.jpg",
+            "title": "横浜サロン",
+            "store_address": "〒231-0003 神奈川県横浜市中区北仲通3-36-2 YLCビル3F",
+            "store_link": ""
+          }
+        },
+        "246a792d-f82b-48fd-80ea-791c0fefdd0d": {
+          "type": "store_info",
+          "settings": {
+            "title": "Store Name",
+            "store_address": "Store Address",
+            "store_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "9e40fe28-842d-4121-9f48-5826b73cc244",
+        "44768bb0-810b-438b-90d2-4075b15af6eb",
+        "246a792d-f82b-48fd-80ea-791c0fefdd0d"
+      ],
       "settings": {
+        "stores_title": "Stores",
         "padding_top": 28,
         "padding_bottom": 28
       }
