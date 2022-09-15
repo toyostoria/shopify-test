@@ -75,18 +75,18 @@
     <div class="stores-block">
       <article class="store">
         <div class="store-header">
-          <a href="(店舗ページのURL)" class="full-unstyled-link">
+          <a href="{{ block.settings.store_link }}" class="full-unstyled-link">
             <figure class="store-thumbnail">
               <img
                 class="stores-image"
-                src="(画像URL)"
-                alt=""
+                src="{{ block.settings.store_image | image_url }}"
+                alt="{{ block.settings.store_image.alt }}"
                 width="720"
                 height="auto"
                 loading="lazy"
               >
             </figure>
-            <h3 class="store-title">(店舗名)</h3>
+            <h3 class="store-title">{{ block.settings.title }}</h3>
           </a>
         </div>
         <div class="store-body">
